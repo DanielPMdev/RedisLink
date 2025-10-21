@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { environment } from '../../../environments/environment';
 import { ShortenRequest } from '../models/shorten-request.model';
 import { ShortenResponse } from '../models/shorten-response.model';
 import { LinkStats } from '../models/link-stats.model';
@@ -9,7 +10,7 @@ import { LinkStats } from '../models/link-stats.model';
   providedIn: 'root'
 })
 export class UrlShortenerService {
-  private apiUrl = 'http://localhost:8080/api/v1/urls';
+  private apiUrl = environment.apiUrl;
 
   constructor(private http: HttpClient) { }
 
