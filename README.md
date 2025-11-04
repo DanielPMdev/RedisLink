@@ -326,7 +326,7 @@ RedisLink/
 ![Dashboard](https://raw.githubusercontent.com/DanielPMdev/RedisLink/main/Docs/images/stats.png)
 
 ### DEMO
-![Demo](https://raw.githubusercontent.com/DanielPMdev/RedisLink/main/Docs/demo/demo.gif)
+![Demo](https://raw.githubusercontent.com/DanielPMdev/RedisLink/main/Docs/demo/demo.mkv)
 ---
 
 ## 🛣️ Roadmap
